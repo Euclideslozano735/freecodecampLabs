@@ -1,0 +1,71 @@
+/* Eliminar viñetas de todas las listas */
+.todo-list,
+.sub-item {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Estilos para los enlaces */
+.sub-item-link {
+  text-decoration: none; /* Sin subrayado */
+}
+
+/* Estados de los enlaces en orden correcto: LoVe Fears HAte */
+.sub-item-link:link {
+  color: #3498db; /* Color para enlaces no visitados */
+}
+
+.sub-item-link:visited {
+  color: #9b59b6; /* Color para enlaces visitados */
+}
+
+.sub-item-link:focus {
+  outline: 2px solid #f39c12; /* Contorno al enfocar */
+  .sub-item-link:focus {
+    outline: 2px solid #f39c12; /* Contorno al enfocar */
+    outline-offset: 2px;
+  }
+
+  .sub-item-link:hover {
+    color: #e74c3c; /* Color al pasar el ratón */
+  }
+
+  .sub-item-link:active {
+    color: #c0392b; /* Color al hacer clic */
+  }
+
+  /* Estilos para la estructura */
+  .todo-list > li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+
+  .sub-item {
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  outline-offset: 2px;
+}
+
+.sub-item-link:hover {
+  color: #e74c3c; /* Color al pasar el ratón */
+}
+
+.sub-item-link:active {
+  color: #c0392b; /* Color al hacer clic */
+}
+
+/* Estilos para la estructura */
+.todo-list > li {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.sub-item {
+  margin-top: 5px;
+  margin-left: 30px;
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 630px;
+  height: 80vh;
+  border: 3px solid red;
+  margin: 50px 50px;
+}
+
+h1 {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.section-uno {
+  display: flex;
+  gap: 20px;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  transform: translate(-50%, 50%);
+}
+
+.section-dos {
+  display: flex;
+  gap: 20px;
+}
+
+.dealer {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: blue;
+  transform: rotate(-5deg);
+}
+
+.guest {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: blue;
+  transform: rotate(-5deg);
+}
+.left {
+  display: flex;
+  transform: translate(50%);
+  width: 100px;
+  height: 150px;
+  border: 1px solid red;
+}
+
+.middle {
+  display: flex;
+  transform: translate(50%);
+  width: 100px;
+  height: 150px;
+  border: 1px solid red;
+}
+
+.right {
+  display: flex;
+  transform: translate(50%);
+  width: 100px;
+  height: 150px;
+  border: 1px solid red;
+}

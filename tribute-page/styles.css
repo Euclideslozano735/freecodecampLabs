@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+html {
+}
+
+body {
+  background-color: aqua;
+}
+
+main {
+  background-color: rgb(90, 128, 0);
+  width: 70%;
+  min-height: 100vh;
+  margin: 50px auto;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+#img-div {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgb(0, 4, 255);
+  width: 100%;
+  height: calc(100vh - 54px);
+}
+
+#image {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+
+img {
+  padding: 1.7rem;
+  background-color: rgba(245, 245, 245, 0.3);
+}
+
+figcaption {
+  text-align: justify;
+  width: 95%;
+  margin: 12px 1px 10px 10px;
+  font-style: italic;
+  font-size: 100%;
+}
+
+ul {
+  width: 90%;
+  margin: 0 20px 5px;
+}
+
+#tribute-info {
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: center;
+}
+
+main h1,
+main > p {
+  text-align: center;
+}

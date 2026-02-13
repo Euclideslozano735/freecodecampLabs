@@ -1,0 +1,33 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.color-grid {
+  margin: 75px 25% 25% 25%;
+}
+
+.color-box {
+  width: 36vw;
+  height: 25px;
+  margin: 5px;
+}
+
+.color1 {
+  background-color: #ffdd44;
+}
+
+.color2 {
+  background-color: rgb(200, 100, 50);
+}
+
+.color3 {
+  background-color: green;
+}
+
+.color4 {
+  background-color: hsl(300, 98%, 50%);
+}
+
+.color5 {
+  background: linear-gradient(rgb(250, 23, 75), rgb(34, 255, 78));
+}

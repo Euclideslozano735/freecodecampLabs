@@ -1,0 +1,13 @@
+* th,
+td {
+  border: 1px solid red;
+  border-collapse: separate;
+  border-spacing: 10px 5px; /* 10px horizontal, 5px vertical */
+  background-color: aqua;
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: separate;
+  gap: 5px;
+}

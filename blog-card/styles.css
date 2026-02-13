@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.blog-post-card {
+  border: 2px solid paleturquoise;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  margin: 125px;
+}
+
+.post-img {
+  background-size: cover;
+  border-bottom: 5px solid red;
+  width: 100%;
+}
+
+.post-content {
+  padding: 50px;
+}
+
+.post-title {
+  color: red;
+  margin: true;
+}
+
+.post-excerpt {
+  color: red;
+  margin: true;
+}
+
+.read-more {
+  color: blue;
+  background-color: beige;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: green;
+}
