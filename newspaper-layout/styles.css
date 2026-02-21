@@ -1,12 +1,61 @@
 .newspaper-layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
   gap: 16px;
   grid-template-areas:
-    "title title tittle "
-    "feature-article feature article cover-image"
-    "secondary-article secondary article cover-image"
+    "title title title "
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
     "small-article1 small-article2 small-article3";
-  background-color: #fff;
+  background-color: rgb(220, 229, 235);
+  margin: 10px;
+}
+
+.title {
+  grid-area: title;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+}
+.small-article2 {
+  grid-area: small-article2;
+}
+.small-article3 {
+  grid-area: small-article3;
+}
+
+.cover-image {
+  grid-area: cover-image;
+}
+
+.cover-image img {
+  max-width: 100%;
+}
+
+.feature-article,
+.secondary-article {
+  background-color: lightblue;
+  padding: 0.6rem;
+  border: 1px solid rgb(173, 216, 230);
+  border-radius: 5%;
+}
+
+.small-article1,
+.small-article2,
+.small-article3 {
+  background-color: wheat;
+  padding: 0.6rem;
 }
